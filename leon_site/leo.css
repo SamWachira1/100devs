@@ -81,20 +81,22 @@ p {
 img {
   width: 240px;
   height: 300px;
-  float: right;
   clear: both;
+  float: right;
   display: inline-block;
 }
 
-  .nav {
-  text-align: center;
-  }
 
  a {
   color: #32CD32; 
   text-align: center;
   text-decoration: underline;
 }
+
+nav {
+  text-align: center;
+}
+
 
 
 
