@@ -1,0 +1,257 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+ul {
+  list-style: none;
+}
+
+.header-nav img {
+    width: 100%;
+    height: 25px;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, freesans, sans-serif;
+}
+
+
+.sec-two h2 {
+    font-size: 21px;
+    display: block;
+    font-weight: 200;
+    color: whitesmoke;
+    margin-top: 24%;
+    margin-bottom: 0;
+    padding: 2px;
+}
+
+.sec-two  a {
+    padding: 5px;
+}
+
+
+.sec-one + h2 p a {
+    margin: 10px;
+}
+
+.sec-one h2 {
+    color: whitesmoke;
+
+    /* color: rgb(240, 240, 240); */
+    margin-top: 32%;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+
+.sec-one p {
+    color: rgb(240, 240, 240);
+    font-weight: 400;
+}
+
+
+
+   .sec-one a {
+    border-left: 3px solid red;
+    height: 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+
+
+}
+
+.sec-two a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-left: 5px;
+    padding: 5px;
+    font-weight: 300;
+    border-left: 3px solid red;
+
+}
+
+
+h1, aside {
+    float: left;
+    width: 50%;
+    /* border: 2px solid black; */
+    height: 60px;
+    margin: 0;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+
+h1 {
+    padding-top: 2%;
+    padding-left: 8px;
+    clear: left;
+    font-weight: 200;
+}
+.date {
+    padding-top: 2%;
+    padding-left: 30%;
+    font-size: 22px;
+    clear: right;
+    font-weight: lighter;
+    opacity: 0.5;
+
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.header-container {
+    height: 70px;
+    background: black;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.header-nav ul li   {
+    width: 6.5%;
+    float: left;
+    line-height: 3;
+    margin: 0px 5px 5px;
+    border-left: 1px solid white;
+
+}
+
+.header-nav li:nth-child(1) {
+    border-left: 2px solid black;
+    margin-right: 29px;
+    margin-top: 4px;
+}
+
+.header-nav a {
+    padding-left: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav {
+    margin-top: 0px;
+}
+
+.sec-one, .sec-two {
+    width: 47%;
+    float: left;
+    height: 334px;
+    contain: content;
+    margin: 8px;
+}
+
+.sec-one {
+    background-image: url('images/president.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 340px;
+}
+
+.sec-two article {
+    float: left;
+    width: 47%;
+    padding: 0;
+    margin: 5px;
+    height: 48%;
+}
+
+.sec-three h2 {
+    contain: content;
+    padding-left: 5px;
+    margin-left: 10px;
+    float: left;
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    border-left: 3px solid red;
+}
+
+.sec-three a {
+  border-left: 3px solid red;
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 15px;
+  margin-left: 7px;
+
+}
+
+.logo-first{
+    background-image: url("images/flag.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo-third{
+    background-image: url("https://ychef.files.bbci.co.uk/live/624x351/p08ngz84.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo-second {
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/2C47/production/_119353311_tv067602105.jpg");
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+
+.logo-fourth {
+    background-image: url("https://ychef.files.bbci.co.uk/live/624x351/p08nccxx.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sec-three article {
+    float: left;
+    width: 31%;
+    margin: 5px;
+}
+
+.sec-three img {
+    width: 100%;
+}
+
+.sec-three-style, h3, p, a {
+    padding-left: 5px;
+}
+
+.sec-three-style, h2, h3, p {
+    color: #4a4a4a;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
